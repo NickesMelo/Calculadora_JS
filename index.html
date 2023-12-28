@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exércício - Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container-general">
+        <div id="display">display</div>
+        <div id="container-left">
+            <button onclick="clear('C')" id="clear" class="displayFlex-center-center">C</button>
+            <button onclick="operations('/')" type="button" id="division" class="displayFlex-center-center">/</button>
+            <button onclick="operations('*')" type="button" id="multiplication" class="displayFlex-center-center">*</button>
+            <button onclick="numbers('7')" type="button" id="seven" class="numbers" class="displayFlex-center-center">7</button>
+            <button onclick="numbers('8')" type="button" id="eight" class="numbers" class="displayFlex-center-center">8</button>
+            <button onclick="numbers('9')" type="button" id="nine" class="numbers" class="displayFlex-center-center">9</button>
+            <button onclick="numbers('4')" type="button" id="for" class="numbers" class="numbers" class="displayFlex-center-center">4</button>
+            <button onclick="numbers('5')" type="button" id="five" class="numbers" class="displayFlex-center-center">5</button>
+            <button onclick="numbers('6')" type="button" id="six" class="numbers" class="displayFlex-center-center">6</button>
+            <button onclick="numbers('1')" type="button" id="one" class="numbers" class="displayFlex-center-center">1</button>
+            <button onclick="numbers('2')" type="button" id="two" class="numbers" class="displayFlex-center-center">2</button>
+            <button onclick="numbers('3')" type="button" id="three" class="numbers" class="displayFlex-center-center">3</button>
+            <button onclick="numbers('0')" type="button" id="zero" class="numbers" class="displayFlex-center-center">0</button>
+            <button onclick="numbers(',')" type="button" id="comma" class="numbers" class="displayFlex-center-center">,</button>
+        </div>
+        
+        <div id="container-right">
+            <button onclick="operations('-')" type="button" id="subtraction" class="displayFlex-center-center">-</button>
+            <button onclick="operations('+')" type="button" id="add" class="displayFlex-center-center">+</button>
+            <button onclick="calculateResult('=')" type="button" id="calculateResult" class="displayFlex-center-center">=</button>
+        </div>
+    </div> <!--Fecha 'container-general'-->
+    <script src="script.js"></script>
+</body>
+</html>
